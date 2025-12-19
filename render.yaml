@@ -3,7 +3,7 @@ services:
     name: etl-tracker-backend
     runtime: docker
     plan: free
-    dockerfilePath: Dockerfile
+    dockerfilePath: DockerFile
     envVars:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
